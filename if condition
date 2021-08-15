@@ -1,0 +1,16 @@
+number1=int(input('ENTER THE 1ST NUMBER:'))
+number2=int(input('ENTER THE 2ND NUMBER:'))
+print('choose the operation')
+print('addtion=A; subration=B; multiplication=C; division=D')
+operation=int(input('enter the operation'))
+
+if (operation==A):
+     print('the answer is',number1+number2)
+elif (operation==B):     
+     print('the answer is',number1-number2)
+elif (operation==C):    
+     print('the answer is',number1*number2) 
+elif (operation==D):     
+     print('the answer is',number1/number2) 
+else:     
+     print('please enter the correct number')
