@@ -1,0 +1,11 @@
+print("for loop")
+lowercase=0
+uppercase=20
+for i in range(0,20,2):
+	print(i)
+print("----------------------")
+print("while loop")
+i=0
+while (i<20):
+	print(i)
+	i+=2
